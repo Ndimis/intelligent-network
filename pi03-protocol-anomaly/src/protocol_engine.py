@@ -44,3 +44,4 @@ if __name__ == "__main__":
     print("\n--- Testing Anomalous Exfiltration (All Large Packets) ---")
     # All packets at maximum MTU (1500) suggests non-standard web traffic
     detector.analyze_stream([1500, 1500, 1500, 1500, 1500])
+    
