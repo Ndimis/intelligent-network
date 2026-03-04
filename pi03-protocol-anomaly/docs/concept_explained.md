@@ -13,7 +13,7 @@ This engine utilizes **Behavioral Profiling** to validate traffic integrity:
 
 
 ### 🛡️ Why This is "Expert Tier"
-This project moves from **Signature-based detection** (finding bad words) to **Statistical detection** (finding bad behavior). It is effective against **Encrypted Threats**: even if we cannot see the data (due to TLS), we can still see the *shape* of the traffic and identify that it doesn't "look" like a standard web session.
+This project moves from **Signature-based detection** (finding bad words) to **Statistical detection** (finding bad behavior). It is effective against **Encrypted Threats**: even if we cannot see the data , we can still see the *shape* of the traffic and identify that it doesn't "look" like a standard web session.
 
 ### 🎓 Professional Takeaway
 This project demonstrates **Statistical Network Analysis** and **Anomaly Detection Theory**. It proves you can build advanced monitoring tools that identify "Low-and-Slow" attacks that bypass standard security rules.
